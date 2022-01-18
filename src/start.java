@@ -48,7 +48,7 @@ public class start {
 				key=FunctionSet.KeyGen(key);
 				
 				BigInteger m=new BigInteger(key);	//convert to BI
-				BigInteger Enkey=RsaFunctionClass.EncDec(m, RsaFunctionClass.e,RsaFunctionClass.n);	//RSA-Encrypt the key
+				BigInteger Enkey=RsaFunctionClass.EncDec(m, RsaFunctionClass.e,RsaFunctionClass.n);	//RSA-Encrypt the key. This key is generated from RSA algo.
 				String keyloc=RsaFunctionClass.WriteEncKey(Enkey, dirname, filename);	//write encrypted key to file for further use
 				
 				obj.encrypt(filename,dirname,key);
