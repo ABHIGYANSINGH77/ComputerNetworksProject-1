@@ -53,7 +53,7 @@ public class start {
 				
 				obj.encrypt(filename,dirname,key);
 					
-				System.out.println("\nFile ENCRYPTED Successfully as 'enc.hades', Stored at"+"'"+dirname+"'");
+				System.out.println("\nFile ENCRYPTED Successfully as 'enc.end', Stored at"+"'"+dirname+"'");
 				System.out.println("ATTENTION! NOW Your Encrypted Private Key is:"+Enkey+"\n\tIt is Saved for You at '"+keyloc+"'");
 		    	break;		
 		    	
