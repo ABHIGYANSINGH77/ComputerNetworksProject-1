@@ -15,12 +15,12 @@ public class EncDec {
 		void encrypt(String filename,String dirname,String key)			//encrypt function
 		{
 			try{
-				File dir = new File("TempFiles");
+				File dir = new File("TempFiles");			//dir reffers destination path.		
 				if(!dir.exists())
 					dir.mkdir();			//make a folder(if donot exist) for temporary files which will b deleted at end of prg
 
 				RandomAccessFile fn = new RandomAccessFile(filename, "rw");  
-				RandomAccessFile in = new RandomAccessFile("TempFiles/cp-temp.hades", "rw");
+				RandomAccessFile in = new RandomAccessFile("TempFiles/cp-temp.hades", "rw");	 // heads is the extension given for file 
 				RandomAccessFile outTemp = new RandomAccessFile("TempFiles/enc-T.hades", "rw");
 				RandomAccessFile out = new RandomAccessFile(dirname+"/enc.hades", "rw"); 
 				
