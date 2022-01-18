@@ -146,6 +146,7 @@ public class start {
 
 		int rows = 5;
 		System.out.println("");
+<<<<<<< HEAD
 
 		// Top design
 		for (int i = 1; i <= rows; i++) {
@@ -180,5 +181,48 @@ public class start {
 			System.out.println("");
 		}
 
+=======
+		
+		//Top design
+		 for (int i=1; i<= rows ; i++)
+         {
+             for (int j = i; j < rows ; j++) {
+                 System.out.print(" ");
+             }   
+             for (int k = 1; k <= (2*i -1) ;k++) {
+                 if( k==1 || i == rows || k==(2*i-1)) {
+                     System.out.print("\t* *");
+                 }
+                 else {
+                     System.out.print("   ");
+                 }
+             }
+             System.out.println("");
+         }
+		 
+		
+		System.out.print("\n\t\t\tCOMPUTER NETWORKS AND SECURITY \n\n\t\t\t\t Usn And Names \n\n1MV19CS001-> AAKASH TYAGI\n1MV19CS002-> ABHIGYAN SINGH\n1MV19CS005-> ADARSHA SV\n1MV19CS007-> ADITYA\n1MV19CS023-> ARJUN GARG\n1MV19CS016-> ANURAG YADAV\n");		
+		
+		
+		//Bottom design
+		for (int i=rows; i>= 1 ; i--)
+	    {
+	        for (int j = i; j < rows ; j++) {
+	            System.out.print(" ");
+	        }   
+	        for (int k = 1; k <= (2*i -1) ;k++) {
+	            if( k==1 || i == rows || k==(2*i-1)) {
+	                System.out.print("\t* *");
+	            }
+	            else {
+	                System.out.print("   ");
+	            }
+	        }
+	        System.out.println("");
+	    }
+		
+		
+		
+>>>>>>> 3db8b1e7809eabf0a9586fd6b16802b1764c7cf7
 	}
 }
