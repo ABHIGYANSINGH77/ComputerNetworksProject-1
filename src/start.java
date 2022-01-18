@@ -156,7 +156,7 @@ public class start {
          }
 		 
 		
-		System.out.print("\n\t\t\tCOMPUTER NETWORKS AND SECURITY \n\n\t\t\t\t(usn & names)\n\n");		
+		System.out.print("\n\t\t\tCOMPUTER NETWORKS AND SECURITY \n\n\t\t\t\t Usn & Names \n\n1MV19CS001-> AAKASH TYAGI\n1MV19CS002-> ABHIGYAN SINGH\n1MV19CS005-> ADARSHA SV\n1MV19CS007-> ADITYA\n1MV19CS023-> ARJUN GARG\n\n");		
 		
 		
 		//Bottom design
